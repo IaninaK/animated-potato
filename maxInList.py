@@ -1,3 +1,7 @@
+#returns the greatest number in a list of integers
+#input: list of integers
+#output: int
+
 def greatest(list):
     if len(list) == 2:
         if list[0] > list[1]:
